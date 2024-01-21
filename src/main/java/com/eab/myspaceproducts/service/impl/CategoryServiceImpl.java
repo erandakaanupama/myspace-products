@@ -29,8 +29,6 @@ public class CategoryServiceImpl implements CategoryService {
             throw new CodeAlreadyExistsException(MessageFormat.format("Category code already exists with given code: {0}", category.getCode()));
         }
 
-        category.setCreatedBy("ADMIN");
-        category.setCreatedAt(LocalDateTime.now());
         Category savedCategory = categoryRepository.save(category);
         return categoryMapper.mapFromEntity(savedCategory);
     }
