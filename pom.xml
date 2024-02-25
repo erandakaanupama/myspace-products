@@ -95,7 +95,7 @@
                 <version>3.4.0</version>
                 <configuration>
                     <to>
-                        <image>myspace/${project.artifactId}:0.1.0</image>
+                        <image>eabandara/${project.artifactId}:0.2.0</image>
                     </to>
                 </configuration>
             </plugin>
