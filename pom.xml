@@ -99,7 +99,7 @@
                 <version>3.4.0</version>
                 <configuration>
                     <to>
-                        <image>eabandara/${project.artifactId}:0.3.0</image>
+                        <image>eabandara/${project.artifactId}:0.4.0</image>
                     </to>
                 </configuration>
             </plugin>
